@@ -17,7 +17,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".workmanager.WorkManagerActivity" />
-        <activity android:name=".databinding.DataBinding"></activity>
+        <activity android:name=".databinding.DataBinding"/>
+        <activity android:name=".paging.PagingActivity"/>
+        <activity android:name=".navigation.NavigationActivity"/>
     </application>
 
 </manifest>
