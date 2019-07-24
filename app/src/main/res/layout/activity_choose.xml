@@ -35,9 +35,20 @@
         android:layout_height="wrap_content"
         android:background="@color/colorAccent"
         android:textColor="#fff"
-        android:text="Paging"
+        android:text="Paging API"
         android:gravity="center"
-        android:onClick="paging"
+        android:onClick="pagingApi"
+        android:layout_margin="2dp"
+        android:padding="8dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:textColor="#fff"
+        android:text="Paging ROOM"
+        android:gravity="center"
+        android:onClick="pagingRoom"
         android:layout_margin="2dp"
         android:padding="8dp"/>
 

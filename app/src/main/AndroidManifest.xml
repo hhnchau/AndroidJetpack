@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="vn.ptt.androidjetpack">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -17,9 +19,10 @@
             </intent-filter>
         </activity>
         <activity android:name=".workmanager.WorkManagerActivity" />
-        <activity android:name=".databinding.DataBinding"/>
-        <activity android:name=".paging.PagingActivity"/>
-        <activity android:name=".navigation.NavigationActivity"/>
+        <activity android:name=".databinding.DataBinding" />
+        <activity android:name=".pagingapi.PagingApiActivity" />
+        <activity android:name=".navigation.NavigationActivity" />
+        <activity android:name=".pagingroom.PagingRoomActivity"></activity>
     </application>
 
 </manifest>

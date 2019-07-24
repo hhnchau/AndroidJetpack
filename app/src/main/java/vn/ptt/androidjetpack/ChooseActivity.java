@@ -6,6 +6,9 @@ import android.os.Bundle;
 import android.view.View;
 
 import vn.ptt.androidjetpack.databinding.DataBinding;
+import vn.ptt.androidjetpack.navigation.NavigationActivity;
+import vn.ptt.androidjetpack.pagingapi.PagingApiActivity;
+import vn.ptt.androidjetpack.pagingroom.PagingRoomActivity;
 import vn.ptt.androidjetpack.workmanager.WorkManagerActivity;
 
 public class ChooseActivity extends AppCompatActivity {
@@ -24,9 +27,15 @@ public class ChooseActivity extends AppCompatActivity {
         startActivity(new Intent(this, DataBinding.class));
     }
 
-    public void paging(View view) {
+    public void pagingApi(View view) {
+        startActivity(new Intent(this, PagingApiActivity.class));
     }
 
     public void navigation(View view) {
+        startActivity(new Intent(this, NavigationActivity.class));
+    }
+
+    public void pagingRoom(View view) {
+        startActivity(new Intent(this, PagingRoomActivity.class));
     }
 }
