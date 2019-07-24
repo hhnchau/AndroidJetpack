@@ -1,4 +1,4 @@
-package vn.ptt.androidjetpack;
+package vn.ptt.androidjetpack.databinding;
 
 public class User {
     String name;

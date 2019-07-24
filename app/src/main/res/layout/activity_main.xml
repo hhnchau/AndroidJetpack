@@ -3,7 +3,7 @@
     <data>
         <variable
             name="user"
-            type="vn.ptt.androidjetpack.User" />
+            type="vn.ptt.androidjetpack.databinding.User" />
     </data>
 
     <LinearLayout

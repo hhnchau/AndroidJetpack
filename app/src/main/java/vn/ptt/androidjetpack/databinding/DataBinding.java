@@ -1,12 +1,11 @@
-package vn.ptt.androidjetpack;
+package vn.ptt.androidjetpack.databinding;
 
 import android.databinding.DataBindingUtil;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-import java.util.UUID;
-
+import vn.ptt.androidjetpack.R;
 import vn.ptt.androidjetpack.databinding.ActivityMainBinding;
 
 public class DataBinding extends AppCompatActivity {
