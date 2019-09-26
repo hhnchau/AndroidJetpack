@@ -8,6 +8,7 @@ import android.view.View;
 import vn.ptt.androidjetpack.databinding.DataBinding;
 import vn.ptt.androidjetpack.navigation.NavigationActivity;
 import vn.ptt.androidjetpack.pagingapi.PagingApiActivity;
+import vn.ptt.androidjetpack.pagingapi.v2.UserGitHubActivity;
 import vn.ptt.androidjetpack.pagingroom.PagingRoomActivity;
 import vn.ptt.androidjetpack.workmanager.WorkManagerActivity;
 
@@ -27,8 +28,12 @@ public class ChooseActivity extends AppCompatActivity {
         startActivity(new Intent(this, DataBinding.class));
     }
 
+//    public void pagingApi(View view) {
+//        startActivity(new Intent(this, PagingApiActivity.class));
+//    }
+
     public void pagingApi(View view) {
-        startActivity(new Intent(this, PagingApiActivity.class));
+        startActivity(new Intent(this, UserGitHubActivity.class));
     }
 
     public void navigation(View view) {

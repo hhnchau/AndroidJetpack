@@ -1,11 +1,12 @@
-package vn.ptt.androidjetpack.pagingapi;
+package vn.ptt.androidjetpack.pagingapi.api;
 
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 public class RetrofitClient {
 
-    private static final String BASE_URL = "https://api.stackexchange.com/2.2/";
+    //private static final String BASE_URL = "https://api.stackexchange.com/2.2/";
+    private static final String BASE_URL = "https://api.github.com";
     private static RetrofitClient mInstance;
     private Retrofit retrofit;
 

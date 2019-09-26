@@ -5,7 +5,7 @@ import android.arch.persistence.room.Room;
 import android.arch.persistence.room.RoomDatabase;
 import android.content.Context;
 
-@Database(entities = {User.class}, version = 1)
+@Database(entities = {User.class}, version = 2, exportSchema = false)
 public abstract class AppDatabase extends RoomDatabase {
     private static AppDatabase instance;
 
@@ -18,6 +18,11 @@ public abstract class AppDatabase extends RoomDatabase {
 
     public static void destroyInstance() {
         instance = null;
+    }
+
+    @Override
+    public void clearAllTables() {
+
     }
 
     public abstract UserDao userDao();

@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AndroidJetpack.iml" filepath="$PROJECT_DIR$/AndroidJetpack.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/AndroidJetpack-app.iml" filepath="$PROJECT_DIR$/app/AndroidJetpack-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SourceCode-AndroidJetpack.iml" filepath="$PROJECT_DIR$/SourceCode-AndroidJetpack.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
